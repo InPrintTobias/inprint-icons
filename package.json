@@ -1,0 +1,49 @@
+{
+  "name": "inprint-icons",
+  "version": "1.0.18",
+  "description": "Inprint Icons",
+  "main": "./dist/inprint-icons.umd.js",
+  "module": "./dist/inprint-icons.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/inprint-icons.mjs",
+      "require": "./dist/inprint-icons.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "icons",
+    "library"
+  ],
+  "author": "InPrint",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.7",
+    "vite-plugin-dts": "^0.17.0",
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InPrintTobias/inprint-icons.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InPrintTobias/inprint-icons/issues"
+  },
+  "homepage": "https://github.com/InPrintTobias/inprint-icons#readme"
+}
